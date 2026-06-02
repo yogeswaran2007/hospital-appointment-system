@@ -1,25 +1,21 @@
-Hospital Appointment Booking System
+Vetri Vel Hospital - Appointment Booking System
 
 Project Description
 
-The Hospital Appointment Booking System is a simple web-based application that allows patients to book appointments with doctors online. This project helps reduce manual appointment booking and provides an easy way for patients to select doctors and appointment dates.
+Vetri Vel Hospital Appointment Booking System is a web-based application that allows patients to book appointments with doctors online. The system helps patients select doctors and appointment dates easily.
 
-Objectives
+Hospital Name
 
-- To provide an online appointment booking facility.
-- To reduce manual work in hospitals.
-- To improve appointment management.
-- To provide a user-friendly interface for patients.
+Vetri Vel Hospital
 
 Features
 
-- Patient Name Entry
-- Age Entry
+- Patient Registration
 - Doctor Selection
-- Appointment Date Selection
 - Appointment Booking
 - Appointment List Display
-- SMS and Email Notification Simulation
+- SMS Notification Simulation
+- Email Notification Simulation
 
 Technologies Used
 
@@ -28,31 +24,10 @@ Technologies Used
 - JavaScript
 - GitHub
 
-Project Workflow
+Developed By
 
-1. Patient enters name and age.
-2. Patient selects a doctor.
-3. Patient chooses an appointment date.
-4. Patient clicks the Book Appointment button.
-5. Appointment details are displayed.
-6. SMS and Email notification message is shown.
-
-Advantages
-
-- Easy to use.
-- Saves time.
-- User-friendly interface.
-- Reduces paperwork.
-- Improves appointment management.
-
-Future Enhancements
-
-- Real SMS Notifications
-- Real Email Notifications
-- Database Integration
-- Patient Login System
-- Admin Dashboard
+Vetri Vel
 
 Conclusion
 
-The Hospital Appointment Booking System is a simple and effective web application developed using HTML, CSS, and JavaScript. It demonstrates the basic process of online appointment booking and can be further enhanced with advanced features in the future.
+This project demonstrates a simple Hospital Appointment Booking System developed using HTML, CSS, and JavaScript. It provides an easy way for patients to book appointments online.
