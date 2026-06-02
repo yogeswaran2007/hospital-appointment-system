@@ -6,23 +6,32 @@
 </head>
 <body>
 
-    <h1>Hospital Appointment Booking System</h1>
+<div class="container">
+
+    <img src="https://cdn-icons-png.flaticon.com/512/2967/2967350.png"
+         class="logo">
+
+    <h1>🏥 Hospital Appointment Booking System</h1>
 
     <form id="appointmentForm">
 
-        <input type="text" id="name" placeholder="Patient Name" required>
+        <input type="text" id="name"
+               placeholder="Enter Patient Name" required>
 
-        <input type="number" id="age" placeholder="Age" required>
+        <input type="number" id="age"
+               placeholder="Enter Age" required>
 
         <select id="doctor">
-            <option>Dr. Kumar</option>
-            <option>Dr. Priya</option>
-            <option>Dr. Arun</option>
+            <option>Dr. Kumar - General</option>
+            <option>Dr. Priya - Cardiologist</option>
+            <option>Dr. Arun - Neurologist</option>
         </select>
 
         <input type="date" id="date" required>
 
-        <button type="submit">Book Appointment</button>
+        <button type="submit">
+            Book Appointment
+        </button>
 
     </form>
 
@@ -30,7 +39,9 @@
 
     <ul id="appointmentList"></ul>
 
-    <script src="script.js"></script>
+</div>
+
+<script src="script.js"></script>
 
 </body>
 </html>
