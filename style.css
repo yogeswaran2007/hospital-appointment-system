@@ -2,7 +2,7 @@ body{
     margin:0;
     font-family:Arial, sans-serif;
 
-    background-image:url("https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=1200");
+    background-image:url("https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1200");
 
     background-size:cover;
     background-position:center;
@@ -23,28 +23,23 @@ body{
     padding:25px;
     border-radius:20px;
     text-align:center;
-    box-shadow:0 0 20px rgba(0,0,0,0.3);
+    box-shadow:0 0 25px rgba(0,0,0,0.3);
 }
 
 .logo{
     width:90px;
+    margin-bottom:10px;
+}
+
+h1{
+    color:#0066cc;
+    margin-bottom:5px;
 }
 
 .subtitle{
     color:#666;
     font-style:italic;
-}
-
-.doctor-section{
-    margin-bottom:15px;
-}
-
-h1{
-    color:#0066cc;
-}
-
-h2{
-    color:#333;
+    margin-bottom:20px;
 }
 
 input,
@@ -71,9 +66,13 @@ button:hover{
     background:#218838;
 }
 
+h2{
+    color:#333;
+}
+
 p{
     color:#333;
-    line-height:1.5;
+    line-height:1.6;
 }
 
 hr{
