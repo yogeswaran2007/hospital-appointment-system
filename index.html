@@ -1,13 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Hospital Appointment Booking</title>
+    <title>Hospital Appointment Booking</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <h1>Hospital Appointment Booking System</h1>
 
-<p>My First Project</p>
+<form id="appointmentForm">
+
+<input type="text" id="name"
+placeholder="Patient Name" required>
+
+<input type="number" id="age"
+placeholder="Age" required>
+
+<select id="doctor">
+<option>Dr. Kumar</option>
+<option>Dr. Priya</option>
+<option>Dr. Arun</option>
+</select>
+
+<input type="date" id="date" required>
+
+<button type="submit">
+Book Appointment
+</button>
+
+</form>
+
+<h2>Appointments</h2>
+
+<ul id="appointmentList"></ul>
+
+<script src="script.js"></script>
 
 </body>
 </html>
