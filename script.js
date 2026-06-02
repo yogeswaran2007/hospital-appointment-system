@@ -5,22 +5,32 @@ form.addEventListener("submit", function(event){
 
     event.preventDefault();
 
-    let name = document.getElementById("name").value;
-    let age = document.getElementById("age").value;
-    let doctor = document.getElementById("doctor").value;
-    let date = document.getElementById("date").value;
+    let name =
+    document.getElementById("name").value;
 
-    let li = document.createElement("li");
+    let age =
+    document.getElementById("age").value;
+
+    let doctor =
+    document.getElementById("doctor").value;
+
+    let date =
+    document.getElementById("date").value;
+
+    let li =
+    document.createElement("li");
 
     li.textContent =
-    "Name: " + name +
+    "Patient: " + name +
     " | Age: " + age +
     " | Doctor: " + doctor +
     " | Date: " + date;
 
     list.appendChild(li);
 
-    alert("Appointment Booked Successfully! SMS and Email Notification Sent.");
+    alert(
+    "Appointment Booked Successfully!\nSMS and Email Notification Sent."
+    );
 
     form.reset();
 });
