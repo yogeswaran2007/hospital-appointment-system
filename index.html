@@ -1,27 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Vetri Vel Hospital</title>
+    <title>Vetri Vel Multi Speciality Hospital</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <div class="container">
 
-    <img src="https://cdn-icons-png.flaticon.com/512/2967/2967350.png"
-         class="logo">
+    <img src="https://cdn-icons-png.flaticon.com/512/2967/2967350.png" class="logo">
 
     <h1>🏥 Vetri Vel Multi Speciality Hospital</h1>
 
-    <p class="subtitle">Online Appointment Booking System</p>
+    <p class="subtitle">Your Health, Our Priority</p>
+
+    <div class="doctor-section">
+        <img src="https://cdn-icons-png.flaticon.com/512/3774/3774299.png" width="120">
+        <p>Available Doctors</p>
+    </div>
 
     <form id="appointmentForm">
 
-        <input type="text" id="name"
-        placeholder="Enter Patient Name" required>
+        <input type="text" id="name" placeholder="Patient Name" required>
 
-        <input type="number" id="age"
-        placeholder="Enter Age" required>
+        <input type="tel" id="mobile" placeholder="Mobile Number" required>
+
+        <input type="email" id="email" placeholder="Email Address" required>
+
+        <input type="number" id="age" placeholder="Age" required>
 
         <select id="doctor">
             <option>Dr. Kumar - General Physician</option>
@@ -31,25 +37,22 @@
 
         <input type="date" id="date" required>
 
-        <button type="submit">
-            Book Appointment
-        </button>
+        <button type="submit">Book Appointment</button>
 
     </form>
 
     <p><b>📞 Emergency Contact:</b> +91 98765 43210</p>
 
-    <p><b>📍 Address:</b> Vetri Vel Multi Speciality Hospital,
-    Coimbatore, Tamil Nadu</p>
+    <p><b>📍 Address:</b> Vetri Vel Multi Speciality Hospital, Coimbatore, Tamil Nadu</p>
 
     <hr>
 
     <h2>About Our Hospital</h2>
 
     <p>
-    Vetri Vel Multi Speciality Hospital provides quality healthcare
-    services with experienced doctors and modern medical facilities.
-    Patients can easily book appointments online through this system.
+        Vetri Vel Multi Speciality Hospital provides quality healthcare
+        services with experienced doctors and modern medical facilities.
+        Patients can easily book appointments online through this system.
     </p>
 
     <hr>
@@ -57,6 +60,12 @@
     <h2>Booked Appointments</h2>
 
     <ul id="appointmentList"></ul>
+
+    <footer>
+        <hr>
+        <p>© 2026 Vetri Vel Multi Speciality Hospital</p>
+        <p>Developed By Vetri Vel</p>
+    </footer>
 
 </div>
 
