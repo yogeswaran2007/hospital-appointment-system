@@ -13,6 +13,7 @@ form.addEventListener("submit", function(event){
     let age = document.getElementById("age").value;
     let doctor = document.getElementById("doctor").value;
     let date = document.getElementById("date").value;
+    let time = document.getElementById("time").value;
 
     let currentToken = token;
 
@@ -25,7 +26,8 @@ form.addEventListener("submit", function(event){
     "<br><b>Email:</b> " + email +
     "<br><b>Age:</b> " + age +
     "<br><b>Doctor:</b> " + doctor +
-    "<br><b>Date:</b> " + date;
+    "<br><b>Date:</b> " + date +
+    "<br><b>Time:</b> " + time;
 
     list.appendChild(li);
 
@@ -33,6 +35,8 @@ form.addEventListener("submit", function(event){
         "Appointment Confirmed!\n\n" +
         "Hospital: Vetri Vel Multi Speciality Hospital\n" +
         "Token Number: " + currentToken +
+        "\nDate: " + date +
+        "\nTime: " + time +
         "\nSMS Notification Sent" +
         "\nEmail Notification Sent"
     );
