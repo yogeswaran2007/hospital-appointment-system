@@ -24,6 +24,44 @@ Technologies Used
 - JavaScript
 - GitHub
 
+ER Diagram 
+
++-----------+      +---------------+      +-----------+
+|  Patient  |------| Appointment   |------|  Doctor   |
++-----------+      +---------------+      +-----------+
+| PatientID |      | AppointmentID |      | DoctorID  |
+| Name      |      | Date          |      | Name      |
+| Phone     |      | Time          |      | Specialty |
+| Email     |      | Status        |      | Phone     |
++-----------+      | PatientID(FK) |      +-----------+
+                   | DoctorID(FK)  |
+                   +---------------+
+
+Case Diagram 
+
++------------------+
+          |     Patient      |
+          +------------------+
+                  |
+      -------------------------
+      |           |           |
+ Register    Book Appt   View Appt
+      |           |           |
+      -------------------------
+                  |
+          +------------------+
+          |     System       |
+          +------------------+
+                  |
+      -------------------------
+      |                       |
+ View Patients      Manage Appointments
+      |                       |
+          +------------------+
+          |      Admin       |
+          +------------------+
+
+
 Developed By
 
 Vetri Vel
