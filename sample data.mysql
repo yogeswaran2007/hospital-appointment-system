@@ -1,0 +1,12 @@
+INSERT INTO appointments
+(patient_name,mobile,email,age,doctor,appointment_date,appointment_time)
+
+VALUES
+
+('Vetri Vel',
+'9876543210',
+'vetri@gmail.com',
+20,
+'Dr. Kumar',
+'2026-06-15',
+'10:30:00');
